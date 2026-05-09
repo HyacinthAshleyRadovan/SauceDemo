@@ -1,0 +1,17 @@
+# Maven build folder
+target/
+
+# Test reports
+test-output/
+
+# Logs
+*.log
+
+# IntelliJ / Eclipse / VS Code
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
