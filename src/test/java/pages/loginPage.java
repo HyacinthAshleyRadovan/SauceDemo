@@ -4,13 +4,25 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import base.BaseScript;
+public class loginPage {
 
-public class loginPage extends BaseScript {
-    public loginPage(WebDriver driver) {
+    WebDriver driver;
+    WebDriverWait wait;
+
+    public loginPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
+        this.wait = wait;
+
         PageFactory.initElements(driver, this);
+    }
+
+    public void login(String username, String password) {
+
+        usernameInput.sendKeys(username);
+        passwordInput.sendKeys(password);
+        loginBtn.click();
     }
 
     @FindBy(id = "user-name")
@@ -21,4 +33,7 @@ public class loginPage extends BaseScript {
 
     @FindBy(id = "login-button")
     public WebElement loginBtn;
+
+    @FindBy(xpath = "//h3[@data-test='error']")
+    public WebElement errorMessage;
 }

@@ -2,9 +2,9 @@
 
 <suite name="Ecommerce Suite">
 
-    <test name="LogIn">
+    <test name="LGN001_LoginWithValidCredentials">
         <classes>
-            <class name="tests.LogIn"/>
+            <class name="tests.LGN001_LoginWithValidCredentials"/>
         </classes>
     </test>
 

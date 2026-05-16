@@ -3,3 +3,32 @@
 [INFO ] 19:53:20 - Clicked submit button
 [INFO ] 19:53:20 - App Logo is displayed
 [INFO ] 19:53:20 - LOG TEST
+[INFO ] 13:48:00 - Logging in as standard user
+[INFO ] 13:59:10 - Starting login test
+[INFO ] 14:03:55 - Starting login test
+[INFO ] 14:08:02 - Starting login test
+[INFO ] 14:08:03 - Validating successful login
+[INFO ] 14:08:03 - Login successful
+[INFO ] 19:49:05 - Starting test: Login with invalid credentials
+[INFO ] 19:49:06 - Login failed as expected
+[INFO ] 19:50:31 - Starting test: Login with invalid credentials
+[INFO ] 19:50:34 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 19:50:34 - Login failed as expected
+[INFO ] 20:10:56 - Starting test: Login with invalid credentials
+[INFO ] 20:10:57 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 20:10:57 - Login failed as expected
+[INFO ] 20:12:11 - Starting test: Login with valid credentials
+[INFO ] 20:12:13 - Validating successful login
+[INFO ] 20:12:13 - Login successful
+[INFO ] 20:12:16 - Starting test: Login with invalid credentials
+[INFO ] 20:12:17 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 20:12:17 - Login failed as expected
+[INFO ] 20:12:19 - Starting test: Login with invalid username
+[INFO ] 20:12:20 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 20:12:20 - Login failed as expected
+[INFO ] 20:12:22 - Starting test: Login with empty username
+[INFO ] 20:12:22 - Error message Epic sadface: Username is required is displayed
+[INFO ] 20:12:22 - Login failed as expected
+[INFO ] 20:12:24 - Starting test: Login with empty password
+[INFO ] 20:12:25 - Error message Epic sadface: Password is required is displayed
+[INFO ] 20:12:25 - Login failed as expected
