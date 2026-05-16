@@ -43,8 +43,6 @@ ecommerce/
 │   │   │   ├── base/
 │   │   │   │   └── BaseScript.java
 │   │   │
-│   │   │   ├── data/
-│   │   │   │   └── loginData/
 │   │   │
 │   │   │   ├── pages/                     # Page Object Model (POM) classes
 │   │   │   │   ├── BasePage.java
@@ -63,6 +61,8 @@ ecommerce/
 ├── src/test/resources/
 │   ├── plans/                             # TestNG XML suite files
 │   │   └── test-suite.xml
+│   ├── data/
+│   │   └── loginData/
 │
 ├── test-cases/                            # Manual test cases (Excel / Docs)
 │
