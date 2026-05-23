@@ -1,8 +1,8 @@
 ---
 
-# 🧪 Sauce Demo Test Automation Project
+# Sauce Demo Test Automation Project
 
-## 📌 Overview
+## Overview
 
 This project is a **test automation framework and manual test suite** for the Sauce Demo web application.
 It demonstrates my skills in **Quality Assurance, test case design, and test automation using Selenium WebDriver with Java and TestNG**.
@@ -11,7 +11,7 @@ The goal of this project is to ensure the core functionalities of the applicatio
 
 ---
 
-## 🚀 Project Type
+## Project Type
 
 * Manual Testing (Test Case Design)
 * UI Test Automation
@@ -20,7 +20,7 @@ The goal of this project is to ensure the core functionalities of the applicatio
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 * Java
 * Selenium WebDriver
@@ -72,29 +72,29 @@ ecommerce/
 
 ---
 
-## 🧪 Modules Covered
+## Modules Covered
 
-### 🔐 Login Module
+### Login Module
 
 * Valid login
 * Invalid login
 * Empty fields validation
 * Locked out user handling
 
-### 🛒 Items / Products Module
+### Items / Products Module
 
 * Add items to cart
 * Remove items from cart
 * Product display validation
 * Sorting (A-Z, Z-A, Price low to high, high to low)
 
-### 🛍️ Cart Module
+### Cart Module
 
 * Verify added items
 * Remove items from cart
 * Checkout navigation
 
-### 💳 Checkout Module (planned / in progress)
+### Checkout Module (planned / in progress)
 
 * User information validation
 * Order summary
