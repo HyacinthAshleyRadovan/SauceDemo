@@ -2,14 +2,13 @@ package tests;
 
 import base.BaseScript;
 import flows.loginFlow;
-import pages.itemPage;
 import pages.loginPage;
 
 import org.testng.annotations.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LGN003_LoginWithInvalidUsername extends BaseScript {
+public class LGN007_VerifyLockedOutUserCannotLogin extends BaseScript {
 
     loginFlow loginFlow;
     loginPage login;
@@ -24,14 +23,14 @@ public class LGN003_LoginWithInvalidUsername extends BaseScript {
     }
 
     @Test
-    public void loginWithInvalidUsername() {
+    public void VerifyLockedOutUserCannotLogin() {
 
-        log("Starting test: Login with invalid username");
+        log("Starting test: Verify locked out user cannot login");
 
-        loginFlow.login("invalid_username", "secret_sauce");
-        assertThat(login.errorMessage.getText())
-                .contains("Epic sadface: Username and password do not match any user in this service");
+        loginFlow.loginAs("lockedOutUser");
+        assertThat(login.errorMessage.getText()).contains("Epic sadface: Sorry, this user has been locked out.");
         log("Error message " + login.errorMessage.getText() + " is displayed");
+
         log("Login failed as expected");
     }
 

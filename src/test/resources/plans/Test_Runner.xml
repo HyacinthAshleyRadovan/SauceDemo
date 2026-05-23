@@ -2,9 +2,9 @@
 
 <suite name="Ecommerce Suite">
 
-    <test name="LGN001_LoginWithValidCredentials">
+    <test name="PRD005_VerifyProductImageIsDisplayed">
         <classes>
-            <class name="tests.LGN001_LoginWithValidCredentials"/>
+            <class name="tests.PRD005_VerifyProductImageIsDisplayed"/>
         </classes>
     </test>
 

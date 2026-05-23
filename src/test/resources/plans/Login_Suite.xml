@@ -31,4 +31,16 @@
             <class name="tests.LGN005_LoginWithEmptyPassword"/>
         </classes>
     </test>
+
+    <test name="LGN006_LoginWithEmptyUsernameAndPassword">
+        <classes>
+            <class name="tests.LGN006_LoginWithEmptyUsernameAndPassword"/>
+        </classes>
+    </test>
+
+    <test name="LGN007_VerifyLockedOutUserCannotLogin">
+        <classes>
+            <class name="tests.LGN007_VerifyLockedOutUserCannotLogin"/>
+        </classes>
+    </test>
 </suite>

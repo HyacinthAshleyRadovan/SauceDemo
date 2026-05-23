@@ -9,10 +9,11 @@ import org.testng.annotations.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LGN004_LoginWithEmptyUsername extends BaseScript {
+public class LGN008_VerifyProblemUserLogin extends BaseScript {
 
     loginFlow loginFlow;
     loginPage login;
+    itemPage itemPage;
 
     @BeforeMethod
     public void start() {
@@ -21,17 +22,17 @@ public class LGN004_LoginWithEmptyUsername extends BaseScript {
 
         loginFlow = new loginFlow(driver, wait);
         login = new loginPage(driver, wait);
+        itemPage = new itemPage(driver, wait);
     }
 
     @Test
-    public void loginWithEmptyUsername() {
+    public void VerifyProblemUserLogin() {
 
-        log("Starting test: Login with empty username");
+        log("Starting test: Verify problem user login");
 
-        loginFlow.login("", "secret_sauce");
-        assertThat(login.errorMessage.getText()).contains("Epic sadface: Username is required");
-        log("Error message " + login.errorMessage.getText() + " is displayed");
-        log("Login failed as expected");
+        loginFlow.loginAs("problemUser");
+        assertThat(itemPage.appLogo.isDisplayed()).describedAs("App logo is NOT displayed").isTrue();
+        log("Login successful");
     }
 
     @AfterMethod

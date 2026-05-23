@@ -32,3 +32,139 @@
 [INFO ] 20:12:24 - Starting test: Login with empty password
 [INFO ] 20:12:25 - Error message Epic sadface: Password is required is displayed
 [INFO ] 20:12:25 - Login failed as expected
+[INFO ] 21:03:44 - Starting test: Login with valid credentials
+[INFO ] 21:03:51 - Starting test: Login with invalid credentials
+[INFO ] 21:03:52 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 21:03:52 - Login failed as expected
+[INFO ] 21:03:56 - Starting test: Login with invalid username
+[INFO ] 21:03:56 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 21:03:56 - Login failed as expected
+[INFO ] 21:03:59 - Starting test: Login with empty username
+[INFO ] 21:04:00 - Error message Epic sadface: Username is required is displayed
+[INFO ] 21:04:00 - Login failed as expected
+[INFO ] 21:04:02 - Starting test: Login with empty password
+[INFO ] 21:04:02 - Error message Epic sadface: Password is required is displayed
+[INFO ] 21:04:02 - Login failed as expected
+[INFO ] 21:04:04 - Starting test: Login with empty username and password
+[INFO ] 21:04:05 - Login failed as expected
+[INFO ] 21:04:07 - Starting test: Verify locked out user cannot login
+[INFO ] 21:07:02 - Starting test: Login with valid credentials
+[INFO ] 21:07:06 - Starting test: Login with invalid credentials
+[INFO ] 21:07:06 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 21:07:06 - Login failed as expected
+[INFO ] 21:07:09 - Starting test: Login with invalid username
+[INFO ] 21:07:10 - Error message Epic sadface: Username and password do not match any user in this service is displayed
+[INFO ] 21:07:10 - Login failed as expected
+[INFO ] 21:07:14 - Starting test: Login with empty username
+[INFO ] 21:07:14 - Error message Epic sadface: Username is required is displayed
+[INFO ] 21:07:14 - Login failed as expected
+[INFO ] 21:07:16 - Starting test: Login with empty password
+[INFO ] 21:07:17 - Error message Epic sadface: Password is required is displayed
+[INFO ] 21:07:17 - Login failed as expected
+[INFO ] 21:07:18 - Starting test: Login with empty username and password
+[INFO ] 21:07:19 - Login failed as expected
+[INFO ] 21:07:21 - Starting test: Verify locked out user cannot login
+[INFO ] 21:14:54 - Starting test: Verify locked out user cannot login
+[INFO ] 21:19:03 - Starting test: Verify locked out user cannot login
+[INFO ] 21:21:01 - Starting test: Verify locked out user cannot login
+[INFO ] 21:24:21 - Starting test: Verify locked out user cannot login
+[INFO ] 21:24:22 - Error message Epic sadface: Sorry, this user has been locked out. is displayed
+[INFO ] 21:24:22 - Login failed as expected
+[INFO ] 21:38:09 - Starting test: Verify problem user login
+[INFO ] 21:38:09 - Login successful
+[INFO ] 21:41:32 - Starting test: Verify performance glitch user login
+[INFO ] 21:41:37 - Login successful
+[INFO ] 21:46:56 - Starting test: Verify password masking
+[INFO ] 21:49:45 - Starting test: Verify password masking
+[INFO ] 21:56:04 - Starting test: Verify password masking
+[INFO ] 21:58:53 - Starting test: Verify password masking
+[INFO ] 22:05:18 - Starting test: Verify password masking
+[INFO ] 22:05:18 - Password masking verified
+[INFO ] 19:15:21 - Starting test: Verify Product List Is Displayed
+[INFO ] 19:20:54 - Starting test: Verify Product List Is Displayed
+[INFO ] 19:20:54 - Product List Is Displayed
+[INFO ] 19:21:53 - Starting test: Verify Product List Is Displayed
+[INFO ] 19:21:54 - Product List Is Displayed with 7 products
+[INFO ] 19:34:31 - Starting test: Verify Product Name Is Displayed
+[INFO ] 19:34:31 - Product Name: Sauce Labs Backpack
+[INFO ] 19:34:31 - Product Name: Sauce Labs Bike Light
+[INFO ] 19:34:31 - Product Name: Sauce Labs Bolt T-Shirt
+[INFO ] 19:34:31 - Product Name: Sauce Labs Fleece Jacket
+[INFO ] 19:34:31 - Product Name: Sauce Labs Onesie
+[INFO ] 19:34:31 - Product Name: Test.allTheThings() T-Shirt (Red)
+[INFO ] 19:34:31 - Product Name Is Displayed with 6 products
+[INFO ] 19:37:55 - Starting test: Verify Product List Is Displayed
+[INFO ] 19:37:56 - Product List Is Displayed with 7 products
+[INFO ] 19:38:52 - Starting test: Verify Product Name Is Displayed
+[INFO ] 19:38:53 - Product Name: Sauce Labs Backpack
+[INFO ] 19:38:53 - Product Name: Sauce Labs Bike Light
+[INFO ] 19:38:53 - Product Name: Sauce Labs Bolt T-Shirt
+[INFO ] 19:38:53 - Product Name: Sauce Labs Fleece Jacket
+[INFO ] 19:38:53 - Product Name: Sauce Labs Onesie
+[INFO ] 19:38:53 - Product Name: Test.allTheThings() T-Shirt (Red)
+[INFO ] 19:38:53 - Product Name Is Displayed with 6 products
+[INFO ] 19:53:21 - Starting test: Verify Product Price Is Displayed
+[INFO ] 19:53:21 - Product 1: Sauce Labs Backpack - $29.99
+[INFO ] 19:53:21 - Product 2: Sauce Labs Bike Light - $9.99
+[INFO ] 19:53:21 - Product 3: Sauce Labs Bolt T-Shirt - $15.99
+[INFO ] 19:53:22 - Product 4: Sauce Labs Fleece Jacket - $49.99
+[INFO ] 19:53:22 - Product 5: Sauce Labs Onesie - $7.99
+[INFO ] 19:53:22 - Product 6: Test.allTheThings() T-Shirt (Red) - $15.99
+[INFO ] 19:53:22 - All 6 products have names AND prices
+[INFO ] 19:53:49 - Starting test: Verify Product Name Is Displayed
+[INFO ] 19:53:49 - Product Name: Sauce Labs Backpack
+[INFO ] 19:53:50 - Product Name: Sauce Labs Bike Light
+[INFO ] 19:53:50 - Product Name: Sauce Labs Bolt T-Shirt
+[INFO ] 19:53:50 - Product Name: Sauce Labs Fleece Jacket
+[INFO ] 19:53:50 - Product Name: Sauce Labs Onesie
+[INFO ] 19:53:50 - Product Name: Test.allTheThings() T-Shirt (Red)
+[INFO ] 19:53:50 - Product Name Is Displayed with 6 products
+[INFO ] 19:55:01 - Starting test: Verify Product Price Is Displayed
+[INFO ] 19:55:02 - Product 1: Sauce Labs Backpack - $29.99
+[INFO ] 19:55:02 - Product 2: Sauce Labs Bike Light - $9.99
+[INFO ] 19:55:02 - Product 3: Sauce Labs Bolt T-Shirt - $15.99
+[INFO ] 19:55:02 - Product 4: Sauce Labs Fleece Jacket - $49.99
+[INFO ] 19:55:02 - Product 5: Sauce Labs Onesie - $7.99
+[INFO ] 19:55:02 - Product 6: Test.allTheThings() T-Shirt (Red) - $15.99
+[INFO ] 19:55:02 - All 6 products have names AND prices
+[INFO ] 20:05:29 - Starting test: Verify Product Image Is Displayed
+[INFO ] 20:05:29 - Product 1: Sauce Labs Backpack - null is displayed
+[INFO ] 20:05:29 - Product 2: Sauce Labs Bike Light - null is displayed
+[INFO ] 20:05:29 - Product 3: Sauce Labs Bolt T-Shirt - null is displayed
+[INFO ] 20:05:30 - Product 4: Sauce Labs Fleece Jacket - null is displayed
+[INFO ] 20:05:30 - Product 5: Sauce Labs Onesie - null is displayed
+[INFO ] 20:05:30 - Product 6: Test.allTheThings() T-Shirt (Red) - null is displayed
+[INFO ] 20:05:30 - All 6 products have names AND images
+[INFO ] 20:14:17 - Starting test: Verify Product Image Is Displayed
+[INFO ] 20:14:17 - Product 1: Sauce Labs Backpack - https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg is displayed
+[INFO ] 20:14:17 - Product 2: Sauce Labs Bike Light - https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg is displayed
+[INFO ] 20:14:17 - Product 3: Sauce Labs Bolt T-Shirt - https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg is displayed
+[INFO ] 20:14:17 - Product 4: Sauce Labs Fleece Jacket - https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg is displayed
+[INFO ] 20:14:18 - Product 5: Sauce Labs Onesie - https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg is displayed
+[INFO ] 20:14:18 - Product 6: Test.allTheThings() T-Shirt (Red) - https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg is displayed
+[INFO ] 20:14:18 - All 6 products have names AND images
+[INFO ] 20:37:38 - Starting test: Verify Product Image Is Displayed
+[INFO ] 20:37:38 - Product 1: Sauce Labs Backpack - https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg is displayed
+[INFO ] 20:37:38 - Product 2: Sauce Labs Bike Light - https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg is displayed
+[INFO ] 20:37:38 - Product 3: Sauce Labs Bolt T-Shirt - https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg is displayed
+[INFO ] 20:37:38 - Product 4: Sauce Labs Fleece Jacket - https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg is displayed
+[INFO ] 20:37:39 - Product 5: Sauce Labs Onesie - https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg is displayed
+[INFO ] 20:37:39 - Product 6: Test.allTheThings() T-Shirt (Red) - https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg is displayed
+[INFO ] 20:37:39 - All 6 products have names AND images
+[INFO ] 20:38:31 - Starting test: Verify Product Image Is Displayed
+[INFO ] 20:38:31 - Product 1: Sauce Labs Backpack - https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg is displayed
+[INFO ] 20:38:32 - Product 2: Sauce Labs Bike Light - https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg is displayed
+[INFO ] 20:38:32 - Product 3: Sauce Labs Bolt T-Shirt - https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg is displayed
+[INFO ] 20:38:32 - Product 4: Sauce Labs Fleece Jacket - https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg is displayed
+[INFO ] 20:38:32 - Product 5: Sauce Labs Onesie - https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg is displayed
+[INFO ] 20:38:32 - Product 6: Test.allTheThings() T-Shirt (Red) - https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg is displayed
+[INFO ] 20:38:32 - All 6 products have names AND images
+[INFO ] 21:00:44 - Pressed ESC to dismiss popup
+[INFO ] 21:00:44 - Starting test: Verify Product Image Is Displayed
+[INFO ] 21:00:45 - Product 1: Sauce Labs Backpack - https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg is displayed
+[INFO ] 21:00:45 - Product 2: Sauce Labs Bike Light - https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg is displayed
+[INFO ] 21:00:45 - Product 3: Sauce Labs Bolt T-Shirt - https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg is displayed
+[INFO ] 21:00:45 - Product 4: Sauce Labs Fleece Jacket - https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg is displayed
+[INFO ] 21:00:45 - Product 5: Sauce Labs Onesie - https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg is displayed
+[INFO ] 21:00:46 - Product 6: Test.allTheThings() T-Shirt (Red) - https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg is displayed
+[INFO ] 21:00:46 - All 6 products have names AND images

@@ -29,7 +29,8 @@ public class LGN002_LoginWithInvalidPassword extends BaseScript {
         log("Starting test: Login with invalid credentials");
 
         loginFlow.login("standard_user", "invalid_password");
-        assertThat(login.errorMessage.isDisplayed()).isTrue();
+        assertThat(login.errorMessage.getText())
+                .contains("Epic sadface: Username and password do not match any user in this service");
         log("Error message " + login.errorMessage.getText() + " is displayed");
         log("Login failed as expected");
     }

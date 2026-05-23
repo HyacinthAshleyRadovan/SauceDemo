@@ -27,7 +27,7 @@ public class LGN001_LoginWithValidCredentials extends BaseScript {
 
         log("Starting test: Login with valid credentials");
 
-        loginFlow.loginAsStandardUser();
+        loginFlow.loginAs("standardUser");
 
         log("Validating successful login");
 

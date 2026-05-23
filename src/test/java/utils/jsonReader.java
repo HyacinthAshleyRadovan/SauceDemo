@@ -1,18 +1,29 @@
 package utils;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 
 import org.json.JSONObject;
+import org.apache.commons.io.IOUtils;
 
 public class jsonReader {
 
-    public static JSONObject getJsonData(String filePath) {
+    public static JSONObject getJsonData(String fileName) {
         try {
-            String content = new String(Files.readAllBytes(Paths.get(filePath)));
+            InputStream is = jsonReader.class
+                    .getClassLoader()
+                    .getResourceAsStream(fileName);
+
+            if (is == null) {
+                throw new RuntimeException("File not found: " + fileName);
+            }
+
+            String content = IOUtils.toString(is, StandardCharsets.UTF_8);
+
             return new JSONObject(content);
+
         } catch (Exception e) {
-            throw new RuntimeException("Failed to read JSON file");
+            throw new RuntimeException("Failed to read JSON file", e);
         }
     }
 }

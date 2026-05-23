@@ -9,7 +9,7 @@ import org.testng.annotations.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class LGN003_LoginWithInvalidUsername extends BaseScript {
+public class LGN006_LoginWithEmptyUsernameAndPassword extends BaseScript {
 
     loginFlow loginFlow;
     loginPage login;
@@ -24,14 +24,14 @@ public class LGN003_LoginWithInvalidUsername extends BaseScript {
     }
 
     @Test
-    public void loginWithInvalidUsername() {
+    public void loginWithEmptyUsernameAndPassword() {
 
-        log("Starting test: Login with invalid username");
+        log("Starting test: Login with empty username and password");
 
-        loginFlow.login("invalid_username", "secret_sauce");
-        assertThat(login.errorMessage.getText())
-                .contains("Epic sadface: Username and password do not match any user in this service");
-        log("Error message " + login.errorMessage.getText() + " is displayed");
+        loginFlow.login("", "");
+        assertThat(login.errorMessage.isDisplayed()).isTrue();
+        assertThat(login.errorMessage.getText()).contains("Epic sadface: Username is required");
+
         log("Login failed as expected");
     }
 

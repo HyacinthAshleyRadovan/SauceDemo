@@ -29,7 +29,7 @@ public class LGN005_LoginWithEmptyPassword extends BaseScript {
         log("Starting test: Login with empty password");
 
         loginFlow.login("standard_user", "");
-        assertThat(login.errorMessage.isDisplayed()).isTrue();
+        assertThat(login.errorMessage.getText()).contains("Epic sadface: Password is required");
         log("Error message " + login.errorMessage.getText() + " is displayed");
         log("Login failed as expected");
     }
