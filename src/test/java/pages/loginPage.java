@@ -36,4 +36,7 @@ public class loginPage {
 
     @FindBy(xpath = "//h3[@data-test='error']")
     public WebElement errorMessage;
+
+    @FindBy(xpath = "//*[@id='login_button_container']/div/form")
+    public WebElement loginForm;
 }

@@ -168,3 +168,67 @@
 [INFO ] 21:00:45 - Product 5: Sauce Labs Onesie - https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg is displayed
 [INFO ] 21:00:46 - Product 6: Test.allTheThings() T-Shirt (Red) - https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg is displayed
 [INFO ] 21:00:46 - All 6 products have names AND images
+[INFO ] 10:52:08 - Pressed ESC to dismiss popup
+[INFO ] 10:52:08 - Starting test: Add Single Item To Cart
+[INFO ] 10:52:08 - Added Sauce Labs Backpack to cart
+[INFO ] 10:52:08 - Successfully added a single item to the cart
+[INFO ] 10:54:50 - Pressed ESC to dismiss popup
+[INFO ] 10:54:50 - Starting test: Add Single Item To Cart
+[INFO ] 10:55:01 - Added Sauce Labs Backpack to cart
+[INFO ] 10:55:01 - Successfully added a single item to the cart
+[INFO ] 11:04:22 - Pressed ESC to dismiss popup
+[INFO ] 11:04:22 - Starting test: Add Multiple Items To Cart
+[INFO ] 11:04:33 - Added Sauce Labs Backpack to cart
+[INFO ] 11:04:43 - Added Sauce Labs Bike Light to cart
+[INFO ] 11:04:54 - Added Sauce Labs Bolt T-Shirt to cart
+[INFO ] 11:04:54 - Successfully added multiple items to the cart
+[INFO ] 11:12:33 - Pressed ESC to dismiss popup
+[INFO ] 11:12:33 - Starting test: Remove Item From Products Page
+[INFO ] 11:12:43 - Added Sauce Labs Backpack to cart
+[INFO ] 11:17:04 - Pressed ESC to dismiss popup
+[INFO ] 11:17:04 - Starting test: Remove Item From Products Page
+[INFO ] 11:18:32 - Pressed ESC to dismiss popup
+[INFO ] 11:18:32 - Starting test: Remove Item From Products Page
+[INFO ] 11:18:42 - Added Sauce Labs Backpack to cart
+[INFO ] 11:21:39 - Pressed ESC to dismiss popup
+[INFO ] 11:21:39 - Starting test: Remove Item From Products Page
+[INFO ] 11:26:33 - Pressed ESC to dismiss popup
+[INFO ] 11:26:33 - Starting test: Remove Item From Products Page
+[INFO ] 11:26:33 - Added Sauce Labs Backpack to cart
+[INFO ] 11:28:01 - Pressed ESC to dismiss popup
+[INFO ] 11:28:01 - Starting test: Remove Item From Products Page
+[INFO ] 11:28:11 - Added Sauce Labs Backpack to cart
+[INFO ] 11:30:07 - Pressed ESC to dismiss popup
+[INFO ] 11:30:07 - Starting test: Remove Item From Products Page
+[INFO ] 11:30:17 - Added Sauce Labs Backpack to cart
+[INFO ] 15:12:46 - Pressed ESC to dismiss popup
+[INFO ] 15:12:46 - Starting test: Remove Item From Products Page
+[INFO ] 15:12:56 - Added Sauce Labs Backpack to cart
+[INFO ] 15:15:25 - Pressed ESC to dismiss popup
+[INFO ] 15:15:25 - Starting test: Remove Item From Products Page
+[INFO ] 15:15:35 - Added Sauce Labs Backpack to cart
+[INFO ] 15:15:46 - Successfully removed item from the cart
+[INFO ] 15:22:00 - Pressed ESC to dismiss popup
+[INFO ] 15:22:00 - Starting test: Verify Cart Badge Count Updates
+[INFO ] 15:26:14 - Pressed ESC to dismiss popup
+[INFO ] 15:26:14 - Starting test: Verify Cart Badge Count Updates
+[INFO ] 15:26:46 - Successfully verified cart badge count updates after adding an item to the cart
+[INFO ] 15:38:20 - Pressed ESC to dismiss popup
+[INFO ] 15:38:20 - Starting test: Verify Cart Badge Count Updates
+[INFO ] 15:39:30 - Pressed ESC to dismiss popup
+[INFO ] 15:39:30 - Starting test: Verify Logout Functionality
+[INFO ] 15:40:50 - Pressed ESC to dismiss popup
+[INFO ] 15:40:50 - Starting test: Verify Logout Functionality
+[INFO ] 15:42:54 - Pressed ESC to dismiss popup
+[INFO ] 15:42:54 - Starting test: Verify Logout Functionality
+[INFO ] 15:42:54 - Menu button clicked
+[INFO ] 15:48:21 - Pressed ESC to dismiss popup
+[INFO ] 15:48:21 - Starting test: Verify Logout Functionality
+[INFO ] 15:48:21 - Menu button clicked
+[INFO ] 15:50:18 - Pressed ESC to dismiss popup
+[INFO ] 15:50:18 - Starting test: Verify Logout Functionality
+[INFO ] 15:50:18 - Menu button clicked
+[INFO ] 15:51:40 - Pressed ESC to dismiss popup
+[INFO ] 15:51:40 - Starting test: Verify Logout Functionality
+[INFO ] 15:51:40 - Menu button clicked
+[INFO ] 15:51:41 - Logout functionality verified successfully

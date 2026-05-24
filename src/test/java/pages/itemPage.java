@@ -45,4 +45,13 @@ public class itemPage {
 
     @FindBy(css = "div.inventory_item_img img")
     public List<WebElement> productImage;
+
+    @FindBy(xpath = "//*[@id='shopping_cart_container']/a/span")
+    public WebElement cartBadge;
+
+    @FindBy(xpath = "//*[@id='shopping_cart_container']")
+    public WebElement cartContainer;
+
+    @FindBy(xpath = "//button[@id='react-burger-menu-btn']")
+    public WebElement menuBtn;
 }

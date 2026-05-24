@@ -2,9 +2,9 @@
 
 <suite name="Ecommerce Suite">
 
-    <test name="PRD005_VerifyProductImageIsDisplayed">
+    <test name="PRD010_VerifyLogoutFunctionality">
         <classes>
-            <class name="tests.PRD005_VerifyProductImageIsDisplayed"/>
+            <class name="tests.PRD010_VerifyLogoutFunctionality"/>
         </classes>
     </test>
 
